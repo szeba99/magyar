@@ -1,0 +1,22 @@
+body
+{
+    background-color: black;
+    color: aliceblue;
+}
+
+
+
+#fenn
+{
+    background-image: linear-gradient(blue,black);
+}
+
+#kozep
+{
+    background-color: black;
+}
+
+#lenn
+{
+    background-image: linear-gradient(black,blue);
+}
