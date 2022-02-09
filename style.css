@@ -1,6 +1,12 @@
+@import url(gombok.css);
+
 body
 {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
+    background-image: url("dragon-scales.svg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    margin: 0%;
     color: aliceblue;
 }
 
@@ -8,15 +14,44 @@ body
 
 #fenn
 {
-    background-image: linear-gradient(blue,black);
+    background-image: linear-gradient(black,rgba(128, 128, 128, 0));
+    padding: 1%;
+    margin: 0;
+    text-align: center;
 }
 
 #kozep
 {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.801);
+    margin: 5%;
+    border-radius: 5%;
+    padding: 5%;
+    border-style: outset;
+    border-width: 3px;
+    border-color: rgb(26, 11, 46);
 }
 
 #lenn
 {
     background-image: linear-gradient(black,blue);
+}
+
+
+
+
+
+
+
+h1
+{
+    text-align: center;
+}
+
+a
+{
+    color:white;
+}
+a:visited
+{
+    color: white;
 }

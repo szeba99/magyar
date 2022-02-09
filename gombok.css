@@ -1,0 +1,13 @@
+#gomb1
+{
+    font-size: 32px;
+    transition: 0.5s;
+    color : aliceblue
+}
+
+#gomb1:hover
+{
+    font-size : 33px;
+    transition: 0.5s;
+    color: white;
+}
