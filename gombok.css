@@ -34,7 +34,7 @@
     color: white;
     display: inline-block;
     margin-left: 1%;
-    padding-bottom: 3%;
+    padding-bottom: 6%;
 }
 
 #gomb2_al
@@ -44,7 +44,20 @@
     margin-top: 1%;
 }
 
+#gomb2_al2
+{
+    display:none;
+    position:absolute;
+    margin-top: 5%;
+}
+
 #gomb2:hover > #gomb2_al
+{
+    display: block;
+
+}
+
+#gomb2:hover > #gomb2_al2
 {
     display: block;
 
