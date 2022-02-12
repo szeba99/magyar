@@ -2,7 +2,10 @@
 {
     font-size: 32px;
     transition: 0.5s;
-    color : aliceblue
+    color : rgb(94, 117, 138);
+    display: inline-block;
+    margin-left: 1%;
+    cursor: pointer;
 }
 
 #gomb1:hover
@@ -10,4 +13,39 @@
     font-size : 33px;
     transition: 0.5s;
     color: white;
+}
+
+/* ----------------------------- */
+
+#gomb2
+{
+    font-size: 32px;
+    transition: 0.5s;
+    color : rgb(153, 167, 184);
+    display: inline-block;
+    margin-left: 1%;
+    cursor: pointer;
+}
+
+#gomb2:hover
+{
+    font-size : 33px;
+    transition: 0.5s;
+    color: white;
+    display: inline-block;
+    margin-left: 1%;
+    padding-bottom: 3%;
+}
+
+#gomb2_al
+{
+    display:none;
+    position:absolute;
+    margin-top: 1%;
+}
+
+#gomb2:hover > #gomb2_al
+{
+    display: block;
+
 }
