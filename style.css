@@ -160,3 +160,18 @@ li
     width: 50%;
     border-radius: 10px;
 }
+
+#mese-illusztracio
+{
+    float:right;
+    width: 40%;
+    height: auto;
+
+}
+
+q
+{
+    text-align: center;
+    align-self: center;
+    display: block;
+}
